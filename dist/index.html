@@ -17,21 +17,46 @@
       action="https://formsubmit.co/tomaszposiadala@gmail.com"
       method="POST"
     >
-      <input type="text" name="name" placeholder="name" required />
-      <input type="email" name="email" placeholder="Email Address" required />
-      <input type="hidden" name="_subject" value="New submission!" required />
       <input
+        data-cy="name-input"
+        type="text"
+        name="name"
+        placeholder="name"
+        required
+      />
+      <input
+        data-cy="email-input"
+        type="email"
+        name="email"
+        placeholder="Email Address"
+        required
+      />
+      <input
+        data-cy="subject-input"
+        type="hidden"
+        name="_subject"
+        value="New submission!"
+        required
+      />
+      <input
+        data-cy="message-input"
         type="text"
         name="message"
         placeholder="write your message here"
         required
       />
       <input
+        data-cy="success-page-input"
         type="hidden"
         name="_next"
         value="https://cypress-test-tomek.netlify.app/success.html"
       />
-      <input type="hidden" name="_captcha" value="false" />
+      <input
+        data-cy="disable-recaptcha-input"
+        type="hidden"
+        name="_captcha"
+        value="false"
+      />
       <button type="submit">Send</button>
     </form>
   </body>

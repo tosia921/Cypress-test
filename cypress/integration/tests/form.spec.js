@@ -1,8 +1,8 @@
 /// <reference types="cypress" />
 
-description('Email Form Test', () => {
+context('Email Form Test', () => {
   beforeEach(() => {
-    cy.visit('https://example.cypress.io/commands/viewport');
+    cy.visit('/');
   });
 
   it('cy.viewport() - set the viewport size and dimension', () => {});
