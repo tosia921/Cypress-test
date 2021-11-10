@@ -1,0 +1,12 @@
+{
+  "baseUrl": "https://cypress-test-tomek.netlify.app",
+  "ignoreTestFiles": [
+    "**/1-getting-started/*.js",
+    "**/2-advanced-examples/*.js"
+  ],
+  "viewportWidth": 1920,
+  "viewportHeight": 1080,
+  "env": {
+    "MALIOSAUR_API_KEY": "U4kLOYhjKkbdswfb"
+  }
+}

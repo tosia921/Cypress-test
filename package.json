@@ -18,6 +18,8 @@
     "babel-loader": "^8.2.3",
     "browser-sync": "^2.27.7",
     "cssnano": "^5.0.9",
+    "cypress": "^8.7.0",
+    "cypress-mailosaur": "^2.4.0",
     "del": "^6.0.0",
     "eslint": "^6.7.1",
     "eslint-config-airbnb": "^18.2.1",
